@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="brand" href="#">
+                <img src="asset/logo.png" alt="Logo" class="navbar-logo">
+                Gagets Nepal</a>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#AboutUs">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                <li><a href="#Cart">Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="Home">
+        <div class="content">
+            <h1>New Arrivals</h1>
+            <p>Our new collection of Products<br> 
+                delivered to your door</p>
+
+                <a href="#" class="shopping-button" onclick="redirectToLogin()">Shop Now</a>
+        </div>
+    </div>
+
+
+
+    <div id="AboutUs" class="about-container">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Welcome to Red Cap Resort, a sanctuary of luxury and tranquility located amidst the most serene settings. 
+                    We are dedicated to offering our guests an unparalleled experience of relaxation and elegance. 
+                    With world-class facilities and exceptional services, our resort is perfect for family vacations, 
+                    romantic getaways, and business retreats. At Red Cap Resort, every moment is crafted to create unforgettable memories.
+                </p>
+            </div>
+            <img src="asset/image7.png" alt="About">
+        </div>
+    </div>
+
+
+    <div id="OurProducts">
+        <h1>Our Products</h1>
+        <div class="product-container">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="asset/headphone.png" alt="Headphone" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Head Phone</h3>
+                    <p class="product-price">Rs. 1200</p>
+                    <a href="#" class="view-button" onclick="redirectToLogin()">View More</a>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="assets/room2.png" alt="Laptop" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Laptop</h3>
+                    <p class="product-price">Rs. 2500</p>
+                    <a href="#" class="view-button" onclick="redirectToLogin()">View More</a>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="assets/room3.png" alt="Mobile" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Mobile</h3>
+                    <p class="product-price">Rs. 1500</p>
+                    <a href="#" class="view-button" onclick="redirectToLogin()">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- Map Section -->
+    <div id="Map">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.020970918079!2d85.2806539!3d27.6931052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb187a97f390b1%3A0xec3f47092df0d4ca!2sKalanki%2C%20Kathmandu!5e0!3m2!1sen!2snp!4v1700397361258!5m2!1sen!2snp"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="facebook-icon"></a>
+            <a href="https://twitter.com" target="_blank" class="twitter-icon"></a>
+            <a href="https://instagram.com" target="_blank" class="instagram-icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
